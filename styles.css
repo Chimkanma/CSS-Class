@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: white;
+}
+
+.menuright, .menuleft {
+    display: flex;
+    list-style: none;
+    
+}
+.menuleft{
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.menuright li, .menuleft li {
+    margin: 50px;
+}
+.menuright{
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.menuright li a, .menuleft li a {
+    color: black;
+    text-decoration: none;
+    
+}
+.menuleft{
+    margin-left: auto; 
+}
+
+h2{
+    font-weight: 200;
+    font-size: 800;
+}
