@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Arimo;
 }
 
 .menu {
@@ -14,6 +14,7 @@ body {
     align-items: center;
     padding: 10px;
     background-color: white;
+   
 }
 
 .menuright, .menuleft {
@@ -22,28 +23,164 @@ body {
     
 }
 .menuleft{
-    font-weight: bold;
-    font-size: 30px;
-}
+    font-weight: 80px;
+    font-size: 32px;
+     
+    }
+    .menuleft:hover {
+        font-weight: bolder;
+    }
 
 .menuright li, .menuleft li {
     margin: 50px;
 }
 .menuright{
+    font-weight: bold;
+    font-size: 45px;
+   
+}
+.menuright:hover{
     font-weight: bolder;
-    font-size: 40px;
 }
 
 .menuright li a, .menuleft li a {
     color: black;
     text-decoration: none;
+   
     
 }
-.menuleft{
-    margin-left: auto; 
+.workwithus{
+    
+    
+    text-decoration: underline;
+    text-decoration-thickness:6px ;
+    text-decoration-color: rgb(0, 230, 118)
+    
+
+}
+.workwithus:hover{
+    
+text-decoration: none;
 }
 
-h2{
-    font-weight: 200;
-    font-size: 800;
+.First-intro{
+    font-size: 82px;
+    font-family: Arimo;
+    text-align: center;
+    margin-left: 800px;
+    margin-right: 800px;
+    box-sizing: border-box;
+    font-weight: bold;
+    margin-top: 200px;
 }
+
+   .second-intro {
+    font-size: 40px;
+    text-align: center;
+    font-family: Arimo;
+    margin-left: 850px;
+    margin-right: 850px;
+    margin-top: 70px;
+
+   }
+.webpicture{
+   width: 1450px;
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   margin-top: 150px;
+   margin-bottom: 250px;
+}
+.horizontalrule{
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 200px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-left: 500px;
+    margin-right: 500px;
+}
+.contentparagraph{
+    font-size: 42px;
+    text-align: center;
+    margin-left: 1000px;
+    margin-right: 1000px;
+    font-weight: 800px;
+    margin-top:200px ;
+    margin-bottom: 150px;
+}
+.designP{
+    font-size: 50px;
+    font-weight: bolder;
+    margin-left: 200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    }
+    .lorem{
+        color: gray;
+        text-align: left;
+        font-size: 40px;
+        display: inline-block;
+        margin-bottom: 30px;
+        margin-left: 200px ;
+        
+       }
+       .picture2 {
+        display: inline-block;
+        width: 1100px;
+        margin-left: 60px;
+        margin-right: auto;
+        vertical-align: top;
+
+      }
+      .box{
+        margin-top: 180px;
+        display: inline-block;
+        width: 1300px;
+        margin-right: 150px;
+      }
+      .button{
+       background-color: rgb(0, 230, 118);
+        font-size: 30px;
+        margin-left: 200px;
+        margin-right: 150px;
+        color: white;
+        font-weight: 20px;
+        border-style: none;
+        border-radius: 7px;
+        padding-right: 70px;
+        padding-left: 70px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        
+    }
+    .button:hover{
+        background-color: rgb(5, 106, 5);
+    }
+    .middleparagraph{
+        margin-bottom: 10px;
+        font-style: italic;
+        text-align: center;
+        font-size: 48px;
+        margin-left: 950px;
+        margin-right: 950px
+        
+    }
+    .roundimage{
+        border-radius: 50px;
+        width: 80px;
+        align-content: center;
+        display: inline-block;
+        margin-left: 1200px;
+       
+        margin-top: 180px;
+        margin-bottom: none;
+        background-color: gray;
+    }
+    .roundimagename {
+       margin-top: 0px;
+       display: inline-block;
+       font-size: 30px;
+       margin-bottom: 50px;
+       
+    }
